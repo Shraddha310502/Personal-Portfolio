@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!-- we have created a navbar header section -->
+    <header>
+        <nav>
+         <div class="left">Portfolio</div>
+         <div class="right">
+
+            <ul>
+            <li><a href="#hom">Home</li></a>
+            <li><a href="#about">About</li></a>
+            <li><a href="#services">Services</li></a>
+            <li><a href="#portfolio">Portfolio</li></a>
+            <li><a href="#contactme">Contact Me</li></a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+      <!-- we have to make main section -->
+
+        <!-- HOME SECTION  -->
+
+      <section class="home" id="hom">
+    
+         
+        <div class="home-content">
+            <h3>Hello , It's Me</h3>
+            <h1 class="header-text">Shraddha Kamla</h1>
+            <h3>And I'm a <span class="imp"> Web Developer</span></h3>
+          
+            
+                                                       <!-- do it later -->
+
+             <div class="home-img">
+                <img class="img-content" src="images/profile.jpeg" alt=""> 
+            </div> 
+            
+            
+            
+
+            <!-- <ABOUT SECTION> -->
+
+              <div id="about">
+                <div class="container">
+                  <div class="row">
+                    <div class="about-col-1">
+                      <img src="images/about.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                      <h3 class="sub-title">About Me</h3>
+                      <p class="para-1">I am a Final year student pursuing a B.Tech in Information Technology from SRMCEM . I have a keen interest in Data Structures and Algorithms and Java Development. My skills include Web Development ,basic knowledge of C,C++,Python.
+                        Currently I am learning Core Java to enhance my knowledge in the field of Java . My hobbies are listening music ,travelling and exploring new things Reading Books.I am always open to learn and explore new opportunities which would help me to grow and apply my skills and knowledge to create a impact on my society.</p>
+                        <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')">SKILLS </p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+             
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                          <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                          <li><span>Web Development</span><br>Web App Development</li>
+                          <li><span>Java Development</span><br>Building desktop apps</li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                          <li><span>Organization - Ekana Technologies</span><br>Training : Php <br>07/2024-01/2024</li>
+                          <li><span>Organization - IBM Developer Skills Network</span><br>Training : Python for Data Science<br>09/2021-10/2021</li>
+                          <li><span>Organization - Precursor Info Solutions pvt Ltd</span><br>Training : Core Java<br>08/2023-10/2023</li>
+                          <li><span>Organization - Internshala</span><br>Training : Web Development<br>06/2023-07/2023</li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-contents" id="education">
+                        <ul>
+                          <li><span>2020-2024</span><br>B.Tech from SRMCEM</li>
+                          <li><span>2019-2020</span><br>Intermediate from RLB School</li>
+                          <li><span>2017-2018</span><br>High School from RLB School</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- -----------------SERVICES SECTION----------------- -->
+
+              <div id="services" >
+                <div class="container">
+                  <h3 class="sub-title">My Services</h3>
+                  <div class="services-list">
+                         <div>
+                          <i class="fas fa-code"></i>
+                          <h2>Web Design</h2>
+                          <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
+                           <a href="#">Learn more</a>
+                         </div>
+
+                         <div>
+                          <i class="fas fa-crop-alt"></i>
+                          <h2>UI/UX Design</h2>
+                          <p>UI/UX design refers to the process of creating user interfaces (UI) and user experiences (UX) for digital products, such as websites, mobile apps, and software applications. UI design focuses on the visual elements of a product, including layout, color schemes, typography, and icons, while UX design focuses on the overall user experience, including usability, accessibility, and user interactions.</p>
+                          <a href="#">Learn more</a>
+                         </div>
+                  
+                         <div>
+                          <i class="fab fa-app-store"></i>
+                          <h2>App Design</h2>
+                          <p>App design refers to the process of creating the visual and interactive elements for a mobile application. It encompasses both UI (user interface) design and UX (user experience) design, with the goal of creating a user-friendly, intuitive, and visually appealing app.
+                          </p>
+                          <a href="#">Learn more</a>
+                         </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ---------------portfolio---------- -->
+         
+              <div id="portfolio">
+                <div class="container">
+                  <h3 class="sub-title">My Work</h3>
+                  <div class="work-list">
+                    <div class="work">
+                      <img src="images/portfolio-1.webp">
+                      <div class="layer">
+                        <h2 class="work1">Digital Sports Club</h2><br/><br/>
+                        <p>Digital Sports Club is a Desktop Application which adds , updates , deletes various  plans , sports and Members of the Club. It covers all concepts of OOPS(Object Oriented Programming ) and GUI programming . It is made using swing and uses JDBC ( Java Database Connectivity ) and  Mysql is used as a database.
+                        </p><br/><br/>
+                        <a><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                    <div class="work">
+                      <img src="images/portfolio-2.jpg">
+                      <div class="layer">
+                        <h2 class="work1">Eye Disease Detection System</h2><br/><br/>
+                        <p>The Eye Disease Detection System developed in this project demonstrates significant 
+                          potential in improving the diagnosis and management of eye diseases such as cataract, 
+                          glaucoma, and diabetic retinopathy. By leveraging the capabilities of Convolutional 
+                          Neural Networks (CNNs), the model achieved high accuracy rates, particularly for 
+                          cataract and healthy eyes. </p><br/><br/>
+                          <a><i class="fas fa-external-link-alt"></i></a>
+                        
+                      </div>
+                    </div>
+                    <div class="work">
+                      <img src="images/portfolio-3.jpg">
+                      <div class="layer">
+                        <h2 class="work1">Food Order App</h2><br/><br/>
+                        <p class="work2">It is Customer Friendly
+                          With the option to order their meals from a mobile app, they can easily place an order when they are stuck in traffic or on the way to pick up the kids.</p><br/><br/>
+                        <a><i class="fas fa-external-link-alt"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+             <!-- ------------------------CONTACT SECTION------------------>
+<div id="contactme">
+<div class="contact">
+  <h3 class="sub1-title">Contact Me</h3><br/>
+  <p><i class="fas fa-paper-plane face"></i><span class="name1">shraddhakamla315@gmail.com</span></p><br/>
+  <p><i class="fa fa-phone face" aria-hidden="true"></i><span class="name1">9555339885</span></p>
+</div>
+</div>
+<div class="social-media">
+  <a href="https://www.facebook.com/shraddha.kamla?mibextid=ZbWKwL"><i class="fab fa-facebook book"></i></a>
+  <a href="https://instagram.com/__shraddha.gupta__02?igshid=ZDc4ODBmNjlmNQ=="><i class="fab fa-instagram book1"></i></a>
+  <a href="https://www.linkedin.com/in/shraddha-kamla-376191219"><i class="fa fa-linkedin-square book2"></i></a>
+  <a href="https://twitter.com/Shraddh9761958?t=RyB59YAMD2GwEM8wWlT-Tw&s=09"><i class="fa fa-twitter-square book3"></i></a>
+</div>
+<a href="images/CV.pdf" download><button type="submit"  class="but1">Download Resume</button></a>
+<form class="form-left">
+  <input type="text" name="Name" placeholder="Enter your name" class="box"><br/><br/>
+  <input type="text" name="Email" placeholder="Enter your Email" class="box"><br/<br/><br/>
+  <textarea name="Message" class="box" rows="6" placeholder="Write your message" required></textarea><br/><br/>
+  <button type="submit" class="but">Submit</button>
+  
+ 
+</form>
+
+     </section>   
+    
+<br/><br/>
+
+
+      <!-- --------------------footer---------- -->
+      
+<footer>
+  <div class="foot1">
+    <p class="foot">CopyRight &copy; by shraddha-kamla-315  ||  All Rights Reserved !!</p>
+  </div>
+</footer>
+
+
+    <script src="js/script.js">
+
+
+
+
+    
+
+
+
+
+    </script>
+
+
+</body>
+
+
+
+
+</html>
